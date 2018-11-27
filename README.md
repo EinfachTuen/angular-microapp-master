@@ -8,8 +8,10 @@ This example consists of three Angular projects that demonstrate how to use Web 
 
 This example is a fork of [Manfred Steyers great Micro app example](https://github.com/manfredsteyer/angular-microapp).
 ### Changes
-25.06.2018 - remove the need for the hash based location strategy (HashLocationStrategy
-) and enable the default PathLocationStrategy by syncing the routers
+27.11.2018(Hauke) - not load navbar again in other components. And added extra path.
+
+25.06.2018 - remove the need for the hash based location strategy (HashLocationStrategy) 
+and enable the default PathLocationStrategy by syncing the routers
 
 25.06.2018 - add lazy loading of the micro apps
 
