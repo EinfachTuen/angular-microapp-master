@@ -46,6 +46,7 @@ export class LoadService {
     this.stateService.registerClient(htmlElement);
 
   }
+  getConfig(){return this.config}
 
   handleMessage(msg): void {
     console.debug('shell received message: ', msg.detail);
